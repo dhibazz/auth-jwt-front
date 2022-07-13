@@ -70,7 +70,7 @@ const Login = (props) => {
   }
 
   return (
-    <div className="main">
+    <div className="main login">
       <div className="sub-main ">
       <div>
          <div className="imgs">
@@ -109,7 +109,7 @@ const Login = (props) => {
           </div>
 
           <div className="login-button">
-          
+
               <button>Login</button>
       
           </div>

@@ -1,12 +1,12 @@
-.main {
+.main.login {
   text-align: center;
   justify-content: center;
   display: flex; 
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #white;
+  background-color: white;
 }
-.sub-main {
+.login .sub-main {
   display: flex;
   justify-content: center;
   height: 550px;
@@ -16,12 +16,12 @@
   border-radius: 60px; 
   background-color: rgb(221, 221, 221);
 }
-.imgs {
+.login .imgs {
     padding-top: 20px;
     justify-content: center;
     display: flex;
   }
-.container-image {
+  .login .container-image {
   background-color: rgb(223, 221, 221); 
   border-radius: 150px;
   align-items: center;
@@ -30,13 +30,13 @@
   height: 115px;
   width: 115px;
 }
-.profile {
+.login .profile {
   height: 100px;
   width: 100px;
   border-radius: 130px;
 } 
 
-input{
+.login input{
     width: 300px;
     height: 50px;
     border-radius:60px;
@@ -46,22 +46,22 @@ input{
     background-color: #fff;
 }
 
-.email{
+.login .email{
     height: 25px;
     width: 25px;
     position: absolute;
     padding: 14px 0 0 25px;
 }
 
-.name{
+.login .name{
     padding-left: 40px;
     font-size: 20px;
 }
-.second-input{
+.login .second-input{
     padding-top: 20px;
 }
 
-button{
+.login button{
     width: 300px;
     height: 50px;
     border-radius: 60px;
@@ -74,12 +74,12 @@ button{
     padding-top: 25px;
 }
 
-.link{
+.login .link{
     font-size:20px;
     font-weight: 400;
     padding-top: 15px;
 }
- a{
+.login a{
      color: rgb(147, 147, 148);
  }
 

@@ -79,7 +79,7 @@ const Register = () => {
     }
   };
   return (
-    <div className="main">
+    <div className="main register">
       <div className="sub-main">
       <div>
          <div className="imgs">
